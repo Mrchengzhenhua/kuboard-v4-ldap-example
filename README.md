@@ -83,5 +83,6 @@ To run the example, you have to prepare:
 * Execute the following command in the source code root directory.
 
   ```sh
+  #镜像要重新打包，发到自己的镜像服务器才行，这个是修改了uid、姓名和邮箱的字段
   docker build -t eipwork/kuboard-v4-ldap-example:v4 .
   ```
